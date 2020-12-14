@@ -249,7 +249,6 @@ h6 {
 }
 
 .footer {
-  margin-bottom: 90px;
 }
 
 .footer__container {
@@ -266,6 +265,7 @@ h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 60px;
 }
 
 .footer__row {
@@ -317,21 +317,7 @@ h6 {
 }
 
 .footer__info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  font-size: 13px;
   line-height: 20px;
   color: #888888;
   text-transform: uppercase;
